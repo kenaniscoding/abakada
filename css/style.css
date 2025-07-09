@@ -86,9 +86,7 @@ button {
 }
 
 .first_container {
-  /*background-color: #1F2937;  */
   background-color: #F7D327;
-  /*background-color: #D0A823;*/
   color: #504C41;
 
   display: flex;
@@ -98,7 +96,9 @@ button {
 }
 
 .first_title {
-  font-size: 60px;
+  font-family: sofia;
+  font-weight: bold;
+  font-size: 70px;
   font-weight: 900;
 }
 

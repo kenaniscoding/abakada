@@ -8,8 +8,8 @@ body {
 }
 
 .header {
-  background-color: #F7D327;
-  color: #504C41;
+  background-color: Pink;
+  color: Black;
   padding: 15px;
   margin: 0px;
   border: 0px;
@@ -33,7 +33,7 @@ body {
 }
 
 p, a {
-  color: #504C41;
+  color: Black;
   font-size: 25px;
   border: 0px;
   margin: 0px;
@@ -42,7 +42,8 @@ p, a {
 
 a {
   text-decoration: none;
-  color: #504C41;
+  color: Black;
+  font-weight: bold;
 }
 
 .sign_1_up:hover{
@@ -69,11 +70,17 @@ table {
     font-family: Arial, sans-serif;
 }
 th, td {
-    border: 1px solid black;
+    /*border: 1px solid #FEED9F;*/
+    border: 9px solid black;
     padding: 10px;
     text-align: center;
     cursor: pointer;
-    min-width: 40px;
+    min-width: 100px;
+    width: 150px; /* Adjust width of each box */
+    height: 150px; /* Adjust height of each box */  
+    font-family:"quicksand";
+    font-size: 5rem; /* Adjust font size of letters */
+    font-weight: bold;
 }
 th {
     background-color: #d0a823;
@@ -90,3 +97,12 @@ td:hover, th:hover {
     color: #333;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7D327;
+  color: Black;
+  padding: 30px;
+  margin-top: auto;
+}
