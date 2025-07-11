@@ -4,15 +4,17 @@ body {
   margin: 0px;
   border: 0px;
   min-height: 100vh;
-  background-color: #FEED8F;
+  /*background-color: #FEED8F;    */
+  /*background-color: rgb(255, 255, 117);*/
+  background-color:#fffbac;
 }
 
 .header {
   background-color: Pink;
   color: Black;
   padding: 15px;
-  margin: 0px;
-  border-top: 50px;
+  /*margin-top: 50px;*/
+  /*border-top: 50px;*/
   display: flex;
   justify-content: space-between;
 }
@@ -21,14 +23,14 @@ body {
 .right_head {
   display: flex;
   align-items: center;
-  padding: 0px 150px;
+  padding: 0px 200px;
 }
 
 .left_head {
   font-size: 40px;
   font-weight: bold;
   border: 0px;
-  padding-left: 140px;
+  /*padding-left: 140px;*/
   margin: 0px;
 }
 
@@ -83,11 +85,17 @@ th, td {
     font-weight: bold;
 }
 th {
-    background-color: #d0a823;
+    /*background-color: #d0a823;*/
+    background-color:#fffbac;
     font-weight: bold;
 }
 td:hover, th:hover {
-    background-color: #f7d327;
+    /*background-color: #f7d327;*/
+  /*background-color:#fffbac;*/
+  /*background-color: rgb(37, 150, 248);*/
+    background-color: lightblue; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    /*background-color: rgb(37, 150, 248);*/
 }
 .result {
     text-align: center;
@@ -106,3 +114,20 @@ td:hover, th:hover {
   padding: 30px;
   margin-top: auto;
 }
+
+#startButton{
+  font-size: 5rem;
+  color: rgb(250, 99, 137);
+}
+
+.startButton{
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+#startButton:hover {
+  color: white; /* Change text color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
