@@ -12,7 +12,7 @@ body {
   color: Black;
   padding: 15px;
   margin: 0px;
-  border: 0px;
+  border-top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -70,8 +70,8 @@ table {
     font-family: Arial, sans-serif;
 }
 th, td {
-    /*border: 1px solid #FEED9F;*/
-    border: 9px solid black;
+    border: 1px solid #FEED9F;
+    /*border: 9px solid black;*/
     padding: 10px;
     text-align: center;
     cursor: pointer;
